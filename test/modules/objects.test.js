@@ -27,7 +27,7 @@ describe("objects.js", () => {
             chai.assert.isTrue(onlyTruthy(truthyExtractor(testObj)), "The return object should only contain truthy values.")
         })
         it("Returns an object that is not empty", () => {
-            chai.assert.strictEqual(truthyExtractor(testObj), answerObj, "Be sure to return an object that is not empty")
+            chai.assert.hasAllKeys(truthyExtractor(testObj), answerObj, "Be sure to return an object that is not empty")
         })
     })
     describe("2. change me", () => {

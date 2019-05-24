@@ -1,9 +1,9 @@
-// 1. provide the sum of one, two, three, in order 
+// 1. What happens when you add a number and string together? Concatenation! Add/Concatenate the variables 'one', 'two' and 'three' in the correct order so that you can assign the value of sum to be '1081'.
 let one = 10;
 let two = '8';
 let three = 1;
 
-let sum;
+let sum
 
 
 // ------------------------------------------
