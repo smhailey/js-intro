@@ -24,6 +24,7 @@ function letterCount(str, letter) {
 
 
 // 3. Given the following sentence: Uppercase the entire word scream each time it appears in the sentence 
+//Hint, be aware of your commas
 // I SCREAM, you SCREAM, we all SCREAM for icecream
 
 let text = 'I scream, you scream, we all scream for icecream';

@@ -17,9 +17,9 @@ function truthyExtractor(obj) {
 // 2. Using dot and bracket notation modify the existing object values to replace the information with your own
 
 let me = {
-    'name': 'Jake Overall',
-    'age': 29,
-    'hair color': 'brown'
+  'name': 'Jake Overall',
+  'age': 29,
+  'hair color': 'brown'
 };
 
 
