@@ -21,7 +21,9 @@ let me = {
   'age': 29,
   'hair color': 'brown'
 };
-
+me.name = 'Sean';
+me.age = 50;
+me['hair color'] = 'brown';
 
 // ------------------------------------------
 
