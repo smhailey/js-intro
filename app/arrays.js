@@ -29,6 +29,11 @@ let tom = {
 };
 
 // add to the array below here
+contacts.push(jake);
+contacts.push(matt);
+contacts.push(mark);
+contacts.push(darryl);
+contacts.push(tom);
 
 
 
@@ -40,7 +45,7 @@ let tom = {
 // 2. What is the length of contacts at this moment? Assign the anwser to the value of length.
 
 
-let length // **your code here on the right side of the variable declaration and assigment**
+let length = contacts.length; // **your code here on the right side of the variable declaration and assigment**
 
 
 // ------------------------------------------
@@ -53,3 +58,6 @@ let length // **your code here on the right side of the variable declaration and
 
 
 let instructors = [];
+instructors.push(mark);
+instructors.push(darryl);
+instructors.push(tom);

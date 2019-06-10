@@ -3,7 +3,7 @@ let one = 10;
 let two = '8';
 let three = 1;
 
-let sum
+let sum = one + two + three;
 
 
 // ------------------------------------------
@@ -12,6 +12,15 @@ let sum
 // 2. write a loop below that starts at 20 and ends at 100. Check each number,
 // if the number is divisible by 3, add it to the 'threes' array.
 let threes = []
+let x = 0;
+do {
+  if (x % 3 === 0) {
+    threes.push(x);
+  }
+  x++;
+}
+while (x <= 100);
+
 
 
 
@@ -22,9 +31,11 @@ let threes = []
 // 3. write code to find the class average given the following test scores
 
 let scores = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98];
-
-
-let average;
+let total = 0;
+for (let i = 0; i < scores.length; i++) {
+  total += scores[i];
+}
+let average = total / scores.length;
 
 
 // code below
