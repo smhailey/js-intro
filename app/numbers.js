@@ -29,20 +29,17 @@ console.log(threes)
 // 3. write code to find the class average given the following test scores
 
 let scores = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98];
-let scores1 = [88, 84, 100, 92, 70, 76];
-let scores2 = [88, 84, 100, 92, 70, 76, 76, 84, 86];
-let scores3 = [88, 84, 100, 92, 70, 84, 86, 98];
-
 
 // code below
-function findAverage(array) {
+// function findAverage(scores) {
 
-  let total = 0;
-  for (let i = 0; i < array.length; i++) {
-    total += array[i];
-  }
-  let average = (total / array.length)
-  return average
+let total = 0;
+for (let i = 0; i < scores.length; i++) {
+  total += scores[i];
 }
+let average = (total / scores.length)
+// return average
+// }
 
-findAverage(scores)
+// findAverage(scores)
+console.log(average)
