@@ -11,15 +11,13 @@ let sum = one + two + three;
 
 // 2. write a loop below that starts at 20 and ends at 100. Check each number,
 // if the number is divisible by 3, add it to the 'threes' array.
-function divisibleByThree() {
-  let threes = []
-  for (let i = 20; i <= 100; i++) {
-    if (i % 3 == 0) {
-      threes.push(i);
-    }
+let threes = []
+for (let i = 20; i <= 100; i++) {
+  if (i % 3 == 0) {
+    threes.push(i);
   }
-  return threes
 }
+console.log(threes)
 
 
 
@@ -32,8 +30,8 @@ function divisibleByThree() {
 
 let scores = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98];
 let scores1 = [88, 84, 100, 92, 70, 76];
-let scores2 = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98];
-let scores3 = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98];
+let scores2 = [88, 84, 100, 92, 70, 76, 76, 84, 86];
+let scores3 = [88, 84, 100, 92, 70, 84, 86, 98];
 
 
 // code below
@@ -47,4 +45,4 @@ function findAverage(array) {
   return average
 }
 
-findAverage(scores3)
+findAverage(scores)
