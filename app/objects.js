@@ -6,8 +6,20 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
 // Truthy Reference: https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 
+
 function truthyExtractor(obj) {
 
+  let person = {
+    firstName: "Theo",
+    middleName: "",
+    lastName: "Gerrard"
+  }
+
+  for (let property1 in person) {
+    string1 += person[property1];
+  }
+
+  console.log(string1);
 }
 
 
