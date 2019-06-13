@@ -3,7 +3,14 @@
 let sentence = 'When i went to the mall i bought a pair of shoes.';
 
 function uppercase(str) {
-
+  let arr = str.split(" ");
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == "i") {
+      arr[i] = "I";
+    }
+  }
+  let newSentence = arr.join(" ");
+  return newSentence
 }
 
 
