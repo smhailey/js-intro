@@ -43,5 +43,15 @@ function letterCount(str, letter) {
 let text = 'I scream, you scream, we all scream for icecream';
 
 function uppercaseWord(str, word) {
-
+  let arr = str.split(" ");
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == word) {
+      arr[i] = word.toUpperCase();
+    }
+    else if (arr[i] == (word + ",")) {
+      arr[i] = (word.toUpperCase() + ",");
+    }
+  }
+  let newText = arr.join(" ");
+  return newText
 }
