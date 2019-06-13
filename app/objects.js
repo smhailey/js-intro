@@ -46,7 +46,15 @@ me['hair color'] = 'brown';
 // input: { 'name': "Jake Overall", 'age': 29, 'hair color': "brown" }
 // output: [ 'name', 'age', 'hair color' ]
 
-
+let obj = {
+  'name': 'Jake Overall',
+  'age': 29,
+  'hair color': 'brown'
+};
+let arr = [];
 function objectKeys(obj) {
-
+  for (let propName in obj) {
+    arr.push(propName);
+  }
+  return arr;
 }
