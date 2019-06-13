@@ -7,21 +7,21 @@
 // Truthy Reference: https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 
 
-function truthyExtractor(obj) {
-
-  let person = {
-    firstName: "Theo",
-    middleName: "",
-    lastName: "Gerrard"
-  }
-
-  for (let property1 in person) {
-    string1 += person[property1];
-  }
-
-  console.log(string1);
+let person = {
+  firstName: "Theo",
+  middleName: "",
+  lastName: "Gerrard"
 }
-
+let newPerson = {}
+function truthyExtractor() {
+  for (let propName in person) {
+    if (person[propName]) {
+      newPerson[propName] = person[propName];
+    }
+  }
+  return newPerson;
+}
+truthyExtractor(person)
 
 // ------------------------------------------
 

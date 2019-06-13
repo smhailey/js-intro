@@ -17,10 +17,6 @@ for (let i = 20; i <= 100; i++) {
     threes.push(i);
   }
 }
-console.log(threes)
-
-
-
 
 
 // ------------------------------------------
@@ -42,4 +38,3 @@ let average = (total / scores.length)
 // }
 
 // findAverage(scores)
-console.log(average)
